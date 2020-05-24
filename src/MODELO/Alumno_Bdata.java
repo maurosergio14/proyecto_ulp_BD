@@ -1,14 +1,20 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package MODELO;
+
+import java.sql.Connection;
 
 /**
  *
  * @author Sergio
  */
 public class Alumno_Bdata {
+    private Connection conectar;
+    
+    public Alumno_Bdata() {
+       
+       }
+    
+    
+    
     
 }
