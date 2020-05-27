@@ -1,3 +1,4 @@
+ 
 package MODELO;
 
 import CONTROLADOR.Alumno;
@@ -12,8 +13,10 @@ import java.util.List;
 
 /**
  *
- * @author Sergio   
+ * @author Sergio
  */
+
+
 public class Alumno_Bdata {
 
     private Connection conectar = null;
@@ -154,7 +157,5 @@ public class Alumno_Bdata {
         }
         return alumno;
     }
-
-    
 
 }
