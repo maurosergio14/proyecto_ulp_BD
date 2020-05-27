@@ -14,11 +14,11 @@ import java.sql.SQLException;
  *
  * @author Sergio
  */
-public class Conexion {
+public class Conexion { 
 
     private String url = "jdbc:mysql://localhost/proyecto_universidad";
     private String usuario = "root"; 
-    private String password = "";
+    private String password = "" ;
 
     private Connection conexion;
 
@@ -34,7 +34,7 @@ public class Conexion {
         Class.forName("org.mariadb.jdbc.Driver");
     }
 
-    public Connection getConexion() throws SQLException {
+     public Connection getConexion() throws SQLException {
         if (conexion == null) {
             conexion = DriverManager.getConnection(url + "?userLegacyDatetimeCode=false&serverTimezone=UTC"
                     + "&user=" + usuario + "&password?=" + password);

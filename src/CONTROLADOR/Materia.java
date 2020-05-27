@@ -8,7 +8,7 @@ public class Materia {
     public Materia() {
         this.id = -1;
     }
-
+ 
     public Materia(String nombre) {
         this.nombre = nombre;
     }

@@ -1,4 +1,5 @@
- 
+
+
 package MODELO;
 
 import CONTROLADOR.Alumno;
@@ -17,9 +18,9 @@ import java.util.List;
  */
 
 
-public class Alumno_Bdata { 
+public class Alumno_Bdata  { 
 
-    private Connection conectar = null;
+   private Connection conectar = null ;
 
     public Alumno_Bdata(Conexion conexion) throws SQLException {
         try {
