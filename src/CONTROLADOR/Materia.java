@@ -1,16 +1,14 @@
-
 package controlador;
 
-
 public class Materia {
-        private int id=-1;
+
+    private int id = -1;
     private String nombre;
 
     public Materia() {
-        this.id=-1;
+        this.id = -1;
     }
-    
-
+ 
     public Materia(String nombre) {
         this.nombre = nombre;
     }
@@ -33,7 +31,7 @@ public class Materia {
 
     @Override
     public String toString() {
-        return id+""+nombre;
+        return id + "" + nombre;
     }
-    
+
 }

@@ -1,4 +1,3 @@
-
 package CONTROLADOR;
 
 import java.time.LocalDate;
@@ -8,12 +7,13 @@ import java.time.LocalDate;
  * @author Sergio
  */
 public class Alumno {
-    int id=-1;
-   private String nombre;
-   private String apellido;
-   private String mail;
-   private LocalDate fecNac;
-   private boolean cursando;
+
+    int id = -1;
+    private String nombre;
+    private String apellido;
+    private String mail;
+    private LocalDate fecNac;
+    private boolean cursando;
 
     public Alumno() {
     }
@@ -58,19 +58,25 @@ public class Alumno {
         this.fecNac = fecNac;
     }
 
-    public boolean isCursando() {
+    public boolean getCursando() {
         return cursando;
     }
 
     public void setCursando(boolean cursando) {
         this.cursando = cursando;
     }
-    
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
     @Override
     public String toString() {
         return "Alumno{" + "id=" + id + ", nombre=" + nombre + ", apellido=" + apellido + ", cursando=" + cursando + '}';
     }
-   
-    
-    
+
 }
