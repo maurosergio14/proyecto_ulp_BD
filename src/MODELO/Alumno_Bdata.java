@@ -17,7 +17,7 @@ import java.util.List;
  */
 
 
-public class Alumno_Bdata {
+public class Alumno_Bdata { 
 
     private Connection conectar = null;
 
@@ -83,6 +83,7 @@ public class Alumno_Bdata {
 
                 alumnos.add(alumno);
             }
+            
             ps.close();
 
         } catch (SQLException ex) {
