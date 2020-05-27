@@ -4,7 +4,9 @@
  * and open the template in the editor.
  */
 package MODELO;
+import CONTROLADOR.Alumno;
 import CONTROLADOR.Cursada;
+import controlador.Materia;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
